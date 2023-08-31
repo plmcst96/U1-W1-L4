@@ -10,11 +10,11 @@ body {
     background-image: url(../img/sfondo.png);
     background-size: 100%;
     line-height: 2.5em;
-    padding: 3em;
 
 }
 /* HEADER */
 header {
+    width: 100%;
     margin-bottom: 2em;
     display: inline-block;
     text-align: center;
@@ -187,12 +187,15 @@ aside h2 {
 
 .post {
     background-color: lightgray;
-    width: 400px;
     margin: 20px;
     padding: 20px;
 }
 .post .fas {
     color: black;
+}
+
+.date {
+    text-align: end;
 }
 /* FOOTER */
 footer {
