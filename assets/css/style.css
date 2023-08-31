@@ -6,20 +6,19 @@ body {
 }
 
 #container {
-    width: 500px;
-    max-width: 500px;
+    margin: 1em;
     background-image: url(../img/sfondo.png);
     background-size: 100%;
     line-height: 2.5em;
+    padding: 3em;
 
 }
 /* HEADER */
 header {
-    width: 460px;
+    margin-bottom: 2em;
     display: inline-block;
     text-align: center;
     background-color: rgb(35, 133, 176);
-    margin: 20px;
     padding: 30px;
     box-sizing: border-box;
     box-shadow: -2px 4px 5px -2px #000000;
@@ -40,7 +39,6 @@ nav {
 
 #principal-content {
     background-color: white;
-    margin: 20px;
     padding: 50px 20px;
     box-shadow: -2px 4px 5px -2px #000000;
     
@@ -65,6 +63,7 @@ h2 {
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
+
 
 .parag {
     margin-top: 25px;
@@ -118,6 +117,8 @@ h2 {
     margin-top: 15px;
 }
 
+
+/* TABELLE */
 .tabel {
     margin-top: 20px;
     
@@ -129,7 +130,6 @@ h2 {
     font-weight: 500;
     font-style: italic;
 }
-/* TABELLE */
  tr:nth-child(odd) {
     background-color: lightgray;
   }
@@ -190,19 +190,15 @@ aside h2 {
     width: 400px;
     margin: 20px;
     padding: 20px;
-    box-sizing: border-box;
 }
 .post .fas {
     color: black;
 }
 /* FOOTER */
 footer {
-    width: 460px;
-    display: inline-block;
     text-align: center;
     background-color: rgb(35, 133, 176);
-    margin: 20px;
+    margin-top: 2em;
     padding: 30px;
-    box-sizing: border-box;
     box-shadow: -2px 4px 5px -2px #000000;
 }
