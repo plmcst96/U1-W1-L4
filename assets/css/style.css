@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-    margin: 1em;
+    margin: 2em;
     background-image: url(../img/sfondo.png);
     background-size: 100%;
     line-height: 2.5em;
