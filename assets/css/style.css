@@ -189,11 +189,10 @@ aside h2 {
     background-color: lightgray;
     width: 400px;
     margin: 20px;
-    
+    padding: 20px;
+    box-sizing: border-box;
 }
-.post  a {
-    text-align: center;
-}
+
 
 aside {
     background-color: white;
@@ -201,6 +200,10 @@ aside {
     padding: 50px 20px;
     box-shadow: -2px 4px 5px -2px #000000;
     
+}
+
+.post .fas {
+    color: black;
 }
 /* FOOTER */
 footer {
