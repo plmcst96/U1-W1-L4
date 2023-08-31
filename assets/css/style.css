@@ -192,16 +192,6 @@ aside h2 {
     padding: 20px;
     box-sizing: border-box;
 }
-
-
-aside {
-    background-color: white;
-    margin: auto 20px;
-    padding: 50px 20px;
-    box-shadow: -2px 4px 5px -2px #000000;
-    
-}
-
 .post .fas {
     color: black;
 }
