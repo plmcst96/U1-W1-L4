@@ -181,6 +181,9 @@ button {
     font-size: 1em;
 }
 /* ELEMENTI NELL' ASIDE */
+aside {
+    margin-top: 2em;
+} 
 aside h2 {
   text-align: center;
 }
@@ -192,6 +195,9 @@ aside h2 {
 }
 .post .fas {
     color: black;
+}
+.fa-calendar-alt {
+
 }
 
 .date {
